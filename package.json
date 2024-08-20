@@ -225,9 +225,9 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "test": "test",
     "start": "node server.js",
-    "build": ""
+    "build": "npm run build",
+    "test": "npm test"
   },
   "repository": {
     "type": "git",
