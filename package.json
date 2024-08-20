@@ -139,7 +139,6 @@
     "negotiator": "^0.6.3",
     "node-addon-api": "^5.1.0",
     "node-fetch": "^2.7.0",
-    "nodemon": "^3.1.4",
     "nopt": "^5.0.0",
     "normalize-path": "^3.0.0",
     "npmlog": "^5.0.1",
@@ -225,9 +224,8 @@
     "yallist": "^4.0.0"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "npm run build",
-    "test": "npm test"
+    "start": "nodemon server.js",
+    "build": "echo 'No build step required'"
   },
   "repository": {
     "type": "git",
@@ -242,5 +240,9 @@
   "bugs": {
     "url": "https://github.com/alunyapatrick2022/week-8-deployment-alunyapatrick2022/issues"
   },
-  "homepage": "https://github.com/alunyapatrick2022/week-8-deployment-alunyapatrick2022#readme"
+  "homepage": "https://github.com/alunyapatrick2022/week-8-deployment-alunyapatrick2022#readme",
+  "devDependencies": {
+    "eslint": "^9.9.0",
+    "nodemon": "^3.1.4"
+  }
 }
